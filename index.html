@@ -410,5 +410,14 @@
     </footer>
 
     <script src="app.js"></script>
-</body>
+<script>
+  document.getElementById("newsletterForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const email = document.getElementById("emailInput").value;
+    const magicLink = `https://magic.beehiiv.com/v1/4aaeada4-f8d1-452c-8fcf-74aff4bc4f5a?email=${encodeURIComponent(email)}`;
+    
+    // Redirect user to the Beehiiv magic link
+    window.location.href = magicLink;
+  });
+</script></body>
 </html>

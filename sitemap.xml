@@ -3,7 +3,7 @@
 
   <!-- Main Page -->
   <url>
-    <loc>https://brain-rot-assessment.replit.app/</loc>
+    <loc>https://brainsrot.in/</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Quiz Page -->
   <url>
-    <loc>https://brain-rot-assessment.replit.app/quiz</loc>
+    <loc>https://brainsrot.in/quiz</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
   <!-- Articles Page -->
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles</loc>
+    <loc>https://brainsrot.in/articles</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
 
   <!-- Resources Page -->
   <url>
-    <loc>https://brain-rot-assessment.replit.app/resources</loc>
+    <loc>https://brainsrot.in/resources</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -35,49 +35,49 @@
 
   <!-- Individual Articles -->
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/brain-rot-epidemic-cognitive-impact-digital-habits</loc>
+    <loc>https://brainsrot.in/articles/brain-rot-epidemic-cognitive-impact-digital-habits</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/digital-addiction-mental-health-anxiety-depression</loc>
+    <loc>https://brainsrot.in/articles/digital-addiction-mental-health-anxiety-depression</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/digital-detox-strategies-mental-clarity</loc>
+    <loc>https://brainsrot.in/articles/digital-detox-strategies-mental-clarity</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/screen-time-mental-health-guide</loc>
+    <loc>https://brainsrot.in/articles/screen-time-mental-health-guide</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/improving-focus-digital-age</loc>
+    <loc>https://brainsrot.in/articles/improving-focus-digital-age</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/brain-health-tips-modern-world</loc>
+    <loc>https://brainsrot.in/articles/brain-health-tips-modern-world</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://brain-rot-assessment.replit.app/articles/signs-need-social-media-break</loc>
+    <loc>https://brainsrot.in/articles/signs-need-social-media-break</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

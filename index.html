@@ -7,29 +7,26 @@
     <!-- Primary Meta Tags -->
     <title>Brain Rot Assessment - Free Digital Wellness Quiz | Oxford Word 2024</title>
     <meta name="description" content="Take our comprehensive Brain Rot Assessment quiz based on Oxford's Word of the Year 2024. Discover your digital wellness level, get personalized dopamine detox solutions, and combat cognitive decline from excessive screen time.">
-    <meta name="keywords" content="brain rot assessment, digital wellness quiz, screen time addiction, social media detox, cognitive decline, mental health, digital addiction test, Oxford word 2024, dopamine detox, passive brain recovery, attention span, focus improvement">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://brainsrot.in/">
 
-    <!-- Social Media Meta Tags (Open Graph & Twitter) -->
+    <!-- Social Media Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brainsrot.in/">
     <meta property="og:title" content="Brain Rot Assessment - Free Digital Wellness Quiz | Oxford Word 2024">
-    <meta property="og:description" content="Take our free Brain Rot Assessment quiz based on Oxford's Word of the Year 2024. Discover your digital wellness level and get personalized solutions.">
+    <meta property="og:description" content="Take our free Brain Rot Assessment quiz based on Oxford's Word of the Year 2024.">
     <meta property="og:image" content="/images/og-image.png">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://brainsrot.in/">
     <meta property="twitter:title" content="Brain Rot Assessment - Free Digital Wellness Quiz | Oxford Word 2024">
-    <meta property="twitter:description" content="Take our free Brain Rot Assessment quiz based on Oxford's Word of the Year 2024. Discover your digital wellness level and get personalized solutions.">
+    <meta property="twitter:description" content="Take our free Brain Rot Assessment quiz based on Oxford's Word of the Year 2024.">
     <meta property="twitter:image" content="/images/og-image.png">
 
-    <!-- CSS and Fonts -->
+    <!-- CSS, Fonts, Manifest -->
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧠%3C/text%3E%3C/svg%3E">
 
@@ -39,12 +36,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "BrainWell - Brain Rot Assessment",
-      "url": "https://brainsrot.in/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://brainsrot.in/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "url": "https://brainsrot.in/"
     }
     </script>
 </head>
@@ -55,7 +47,7 @@
             <div class="nav__brand"><h2>🧠 BrainWell ✨</h2></div>
             <nav class="nav__menu" id="navMenu">
                 <a href="#home" class="nav__link">🏠 Home</a>
-                <a href="#quiz" class="nav__link">📝 Take Quiz</a>
+                <a href="#quiz-section" class="nav__link">📝 Take Quiz</a>
                 <a href="#articles" class="nav__link">📚 Articles</a>
                 <a href="#resources" class="nav__link">🎯 Resources</a>
                 <a href="#faq" class="nav__link">❓ FAQ</a>
@@ -63,9 +55,8 @@
         </div>
     </nav>
 
-    <!-- All content will be managed within pages -->
     <main id="main-content">
-        <!-- Homepage -->
+        <!-- Home Page Content -->
         <div id="home" class="page active">
             <!-- Hero Section -->
             <section class="hero">
@@ -85,84 +76,64 @@
             <section class="articles-preview" id="articles">
                 <div class="container">
                     <h2 class="section-title">📚 Expert Articles on Digital Wellness ✨</h2>
-                    <div class="articles-grid" id="articlesGrid">
-                        <!-- Articles will be populated by app.js -->
-                    </div>
+                    <div class="articles-grid" id="articlesGrid"></div>
                 </div>
             </section>
 
             <!-- Resources Section -->
-            <section class="resources" id="resources" aria-labelledby="resources-heading">
+            <section class="resources" id="resources">
                 <div class="container">
-                    <h2 id="resources-heading" class="section-title">🎯 Digital Wellness Resources 🌟</h2>
+                    <h2 class="section-title">🎯 Digital Wellness Resources 🌟</h2>
                     <div class="resources-grid">
-                        <div class="resource-category card-blue">
-                            <h3>📊 Assessment Tools</h3>
-                            <div class="status status--success">✅ Available</div>
-                            <p>Comprehensive brain rot assessment with personalized results 🧠📈</p>
-                        </div>
-                        <div class="resource-category card-yellow">
-                            <h3>🎯 Recovery Plans</h3>
-                            <div class="status status--success">✅ Available</div>
-                            <p>Structured solutions based on your assessment level 💪🌟</p>
-                        </div>
-                        <div class="resource-category card-green">
-                            <h3>👨‍⚕️ Expert Articles</h3>
-                            <div class="status status--success">✅ Available</div>
-                            <p>Evidence-based strategies from digital wellness experts 📚💡</p>
-                        </div>
-                        <div class="resource-category card-purple">
-                            <h3>👥 Community Support</h3>
-                            <div class="status status--info">🔄 Coming Soon</div>
-                            <p>Connect with others on their digital wellness journey 🤝🌈</p>
-                        </div>
+                        <div class="resource-category card-blue"><h3>📊 Assessment Tools</h3><div class="status status--success">✅ Available</div><p>Comprehensive brain rot assessment with personalized results 🧠📈</p></div>
+                        <div class="resource-category card-yellow"><h3>🎯 Recovery Plans</h3><div class="status status--success">✅ Available</div><p>Structured solutions based on your assessment level 💪🌟</p></div>
+                        <div class="resource-category card-green"><h3>👨‍⚕️ Expert Articles</h3><div class="status status--success">✅ Available</div><p>Evidence-based strategies from digital wellness experts 📚💡</p></div>
+                        <div class="resource-category card-purple"><h3>👥 Community Support</h3><div class="status status--info">🔄 Coming Soon</div><p>Connect with others on their digital wellness journey 🤝🌈</p></div>
                     </div>
                 </div>
             </section>
 
             <!-- FAQ Section -->
-            <section class="faq-section" id="faq" aria-labelledby="faq-heading">
+            <section class="faq-section" id="faq">
                 <div class="container">
-                    <h2 id="faq-heading" class="section-title">❓ Digital Wellness FAQ 🤔</h2>
-                    <div class="faq-grid" id="faqGrid">
-                        <!-- FAQ items will be populated by app.js -->
-                    </div>
+                    <h2 class="section-title">❓ Digital Wellness FAQ 🤔</h2>
+                    <div class="faq-grid" id="faqGrid"></div>
                 </div>
             </section>
         </div>
 
-        <!-- Quiz Page -->
+        <!-- Quiz Page Content -->
         <div id="quiz" class="page">
-            <section class="quiz">
+            <section class="quiz" id="quiz-section">
                 <div class="container">
                     <div class="quiz__header">
                         <h1>🧠 Brain Rot Assessment 📊</h1>
                         <p>📝 Answer 15 questions to discover your digital wellness level!</p>
                         <div class="progress-bar"><div class="progress-bar__fill" id="progressFill"></div></div>
-                        <span class="progress-text" id="progressText">Question 1 of 15</span>
+                        <span class="progress-text" id="progressText"></span>
                     </div>
-                    <div class="quiz__content" id="quizContent">
+                    <div class="quiz__content">
                         <div class="question-card" id="questionCard">
                             <h2 class="question-title" id="questionTitle"></h2>
                             <div class="question-options" id="questionOptions"></div>
                         </div>
                     </div>
                     <div class="quiz__navigation">
-                        <button class="btn btn--secondary" id="prevBtn" onclick="previousQuestion()" disabled>⬅️ Previous</button>
-                        <button class="btn btn--primary" id="nextBtn" onclick="nextQuestion()" disabled>Next ➡️</button>
+                        <button class="btn btn--secondary" id="prevBtn" onclick="previousQuestion()">⬅️ Previous</button>
+                        <button class="btn btn--primary" id="nextBtn" onclick="nextQuestion()">Next ➡️</button>
                     </div>
                 </div>
             </section>
         </div>
 
-        <!-- Results Page -->
+        <!-- Results Page Content -->
         <div id="results" class="page">
             <section class="results">
                 <div class="container">
                     <div class="results__header"><h1>🎉 Your Results! 📊</h1></div>
                     <div class="results__content" id="resultsContent"></div>
                     <div class="results__actions">
-                        <button class="btn btn--primary" onclick="showPage('quiz'); resetQuiz();">🔄 Retake Quiz</button>
+                        <button class="btn btn--primary" onclick="resetQuiz()">🔄 Retake Quiz</button>
                         <button class="btn btn--secondary" onclick="showPage('home')">🏠 Back to Home</button>
                     </div>
                 </div>
@@ -173,9 +144,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer__bottom">
-                <p>&copy; 2025 BrainWell. Digital wellness for the modern world.</p>
-            </div>
+            <p>&copy; 2025 BrainWell. Digital wellness for the modern world.</p>
         </div>
     </footer>
 

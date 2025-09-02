@@ -16,8 +16,6 @@ Disallow: /temp/
 Disallow: /*.tmp$
 Disallow: /*.log$
 
-# Crawl-delay to be respectful to server resources
-Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://brain-rot-assessment.replit.app/sitemap.xml
+Sitemap: https://brainsrot.in/sitemap.xml

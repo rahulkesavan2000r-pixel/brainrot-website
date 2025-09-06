@@ -1,0 +1,32 @@
+name: Generate SEO Content with Gemini
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  seo_automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate Meta Tags for New Page
+        run: |
+          # This is where the magic happens!
+          # It will trigger on every push to the main branch
+          # We'll use a simple prompt to generate content for a specific file.
+          # Replace 'path/to/your/new-blog-post.md' with the actual path.
+          echo "Generating SEO content for a new blog post."
+          PROMPT="You are an SEO expert. Analyze the content of the file 'path/to/your/new-blog-post.md' and generate the following for me:
+          1. A concise, SEO-friendly title (under 60 characters).
+          2. A compelling meta description (under 160 characters).
+          3. A list of 5 keywords.
+          4. The best H1 and H2 headings for the content.
+          "
+
+          # Use the Gemini CLI Action to execute the prompt
+          # Note: You may need to install the action first or use a pre-built one.
+          # This is a conceptual example of a simple setup.
+
+          # For a true automation setup, you would use a pre-built action.
+          # The simple way to start is to use Gemini Code Assist for review and manually create new files.

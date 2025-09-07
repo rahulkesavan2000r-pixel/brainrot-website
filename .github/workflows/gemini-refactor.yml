@@ -1,0 +1,22 @@
+name: Gemini Refactor Workflow
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  refactor:
+    if: contains(github.event.comment.body, '@gemini-cli')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Gemini CLI
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "Gemini refactor triggered..."
+          echo "User request: ${GITHUB_EVENT_COMMENT_BODY}"
+          # Here is where Gemini CLI processes your command.
+          # For example:
+          gemini-cli run "${GITHUB_EVENT_COMMENT_BODY}"

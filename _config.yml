@@ -1,0 +1,18 @@
+title: "Beat Brain Rot"
+description: "Your Digital Wellness Hub - Comprehensive Resources for Cognitive Recovery"
+baseurl: ""        # keep this empty since you're deploying on Netlify root
+url: ""            # Netlify will auto-detect your site URL
+
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  faqs:
+    output: true
+  quizzes:
+    output: true
+
+# Directories
+include:
+  - assets

@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+  <!-- Use absolute paths so Netlify finds assets -->
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
   <div class="header">
@@ -28,6 +29,7 @@
     <p>&copy; 2025 brainsrot.in</p>
   </footer>
 
-  <script src="{{ site.baseurl }}/assets/app.js" defer></script>
+  <!-- JS loaded with absolute path -->
+  <script src="/assets/app.js" defer></script>
 </body>
 </html>

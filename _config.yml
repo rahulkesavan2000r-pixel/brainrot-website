@@ -4,7 +4,6 @@ baseurl: ""        # keep this empty since you're deploying on Netlify root
 url: ""            # Netlify will auto-detect your site URL
 
 markdown: kramdown
-theme: minima
 
 # Collections
 collections:
